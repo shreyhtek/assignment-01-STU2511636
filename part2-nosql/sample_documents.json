@@ -1,0 +1,162 @@
+ [
+  {
+    "_id": "prod_elec_001",
+    "category": "Electronics",
+    "name": "Samsung Galaxy Book3 Pro",
+    "brand": "Samsung",
+    "sku": "SGB3P-16-512-SLV",
+    "price": 89990,
+    "currency": "INR",
+    "stock": 34,
+    "specs": {
+      "display": {
+        "size_inches": 16,
+        "resolution": "2880x1800",
+        "panel_type": "AMOLED",
+        "refresh_rate_hz": 120
+      },
+      "processor": {
+        "brand": "Intel",
+        "model": "Core i7-1360P",
+        "cores": 12,
+        "base_ghz": 2.2,
+        "boost_ghz": 5.0
+      },
+      "memory_gb": 16,
+      "storage_gb": 512,
+      "storage_type": "NVMe SSD",
+      "battery_wh": 76,
+      "weight_kg": 1.56,
+      "voltage": {
+        "input": "100-240V",
+        "frequency_hz": "50/60Hz"
+      },
+      "ports": ["USB-C (Thunderbolt 4)", "USB-C 3.2", "USB-A 3.2", "HDMI 2.0", "microSD", "3.5mm audio"],
+      "wireless": ["Wi-Fi 6E", "Bluetooth 5.3"]
+    },
+    "warranty": {
+      "duration_months": 12,
+      "type": "Manufacturer",
+      "coverage": ["manufacturing defects", "hardware failure"],
+      "excludes": ["physical damage", "liquid damage"],
+      "support_contact": "1800-40-Samsung"
+    },
+    "certifications": ["BIS", "ISI", "RoHS"],
+    "in_box": ["Laptop", "65W USB-C Adapter", "Quick Start Guide"],
+    "tags": ["laptop", "ultrabook", "work", "amoled"],
+    "created_at": "2024-03-01T10:00:00Z",
+    "updated_at": "2024-11-15T08:30:00Z"
+  },
+
+  {
+    "_id": "prod_clth_001",
+    "category": "Clothing",
+    "name": "Men's Slim Fit Oxford Shirt",
+    "brand": "Arrow",
+    "sku": "ARW-OXFRD-SLM-NVY-L",
+    "price": 1799,
+    "currency": "INR",
+    "stock": 120,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Navy Blue",
+        "color_hex": "#1B2A6B",
+        "stock": 22,
+        "sku_variant": "ARW-OXFRD-SLM-NVY-S"
+      },
+      {
+        "size": "M",
+        "color": "Navy Blue",
+        "color_hex": "#1B2A6B",
+        "stock": 38,
+        "sku_variant": "ARW-OXFRD-SLM-NVY-M"
+      },
+      {
+        "size": "L",
+        "color": "Navy Blue",
+        "color_hex": "#1B2A6B",
+        "stock": 35,
+        "sku_variant": "ARW-OXFRD-SLM-NVY-L"
+      },
+      {
+        "size": "XL",
+        "color": "Navy Blue",
+        "color_hex": "#1B2A6B",
+        "stock": 25,
+        "sku_variant": "ARW-OXFRD-SLM-NVY-XL"
+      }
+    ],
+    "fabric": {
+      "composition": [
+        { "material": "Cotton", "percent": 80 },
+        { "material": "Polyester", "percent": 20 }
+      ],
+      "weight_gsm": 130,
+      "weave": "Oxford",
+      "finish": "Wrinkle-resistant"
+    },
+    "fit": "Slim Fit",
+    "occasion": ["Formal", "Business Casual"],
+    "care_instructions": [
+      "Machine wash cold",
+      "Do not bleach",
+      "Tumble dry low",
+      "Iron on medium heat",
+      "Do not dry clean"
+    ],
+    "country_of_origin": "India",
+    "sizes_available": ["S", "M", "L", "XL", "XXL"],
+    "sustainable": false,
+    "tags": ["shirt", "formal", "cotton", "slim-fit", "office-wear"],
+    "created_at": "2024-01-10T09:00:00Z",
+    "updated_at": "2024-10-05T14:20:00Z"
+  },
+
+  {
+    "_id": "prod_groc_001",
+    "category": "Groceries",
+    "name": "Organic Rolled Oats",
+    "brand": "True Elements",
+    "sku": "TE-ORG-OATS-1KG",
+    "price": 349,
+    "currency": "INR",
+    "stock": 280,
+    "weight": {
+      "net_grams": 1000,
+      "gross_grams": 1080
+    },
+    "dates": {
+      "manufactured": "2024-09-01",
+      "best_before": "2025-08-31",
+      "expiry": "2025-12-31"
+    },
+    "storage": "Store in a cool, dry place. Keep away from direct sunlight. Once opened, seal tightly.",
+    "nutritional_info": {
+      "serving_size_g": 40,
+      "servings_per_pack": 25,
+      "per_serving": {
+        "calories_kcal": 148,
+        "protein_g": 5.2,
+        "carbohydrates_g": 25.0,
+        "of_which_sugars_g": 0.5,
+        "dietary_fibre_g": 3.8,
+        "fat_g": 2.8,
+        "of_which_saturated_g": 0.5,
+        "sodium_mg": 2
+      }
+    },
+    "ingredients": ["Whole Grain Rolled Oats (100%)"],
+    "allergens": ["Gluten"],
+    "allergen_free_from": ["Dairy", "Soy", "Nuts", "Eggs"],
+    "certifications": [
+      { "name": "USDA Organic", "cert_number": "USDA-ORG-2024-4421" },
+      { "name": "FSSAI Licensed", "cert_number": "10019022007399" }
+    ],
+    "diet_tags": ["Vegan", "Gluten-Containing", "High-Fibre", "Organic"],
+    "country_of_origin": "India",
+    "tags": ["oats", "breakfast", "organic", "healthy", "high-protein"],
+    "created_at": "2024-09-05T07:00:00Z",
+    "updated_at": "2024-09-05T07:00:00Z"
+  }
+]
